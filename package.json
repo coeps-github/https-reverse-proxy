@@ -2,6 +2,7 @@
   "name": "@coeps/https-reverse-proxy",
   "version": "1.0.0",
   "description": "simple configurable https reverse proxy",
+  "keywords": ["https", "reverse", "proxy", "config", "simple"],
   "main": "https-reverse-proxy.js",
   "bin": {
     "https-reverse-proxy": "https-reverse-proxy.js"
