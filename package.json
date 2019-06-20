@@ -4,7 +4,7 @@
   "description": "simple configurable https reverse proxy",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js example-config.json"
+    "start": "node index.js --config config.json"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,9 @@
   },
   "homepage": "https://github.com/coeps-github/https-reverse-proxy#readme",
   "dependencies": {
-    "commander": "2.20.0",
+    "debug": "4.1.1",
     "express": "4.17.1",
-    "http-proxy": "1.17.0"
+    "http-proxy": "1.17.0",
+    "rc": "1.2.8"
   }
 }
