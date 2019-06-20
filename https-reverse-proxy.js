@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const rc = require('rc');
 const fs = require('fs');
 const express = require('express');

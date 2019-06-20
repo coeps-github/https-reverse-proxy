@@ -7,13 +7,14 @@
     "https-reverse-proxy": "https-reverse-proxy.js"
   },
   "scripts": {
-    "start": "node https-reverse-proxy.js --config config.json"
+    "start": "node https-reverse-proxy.js --config config.json",
+    "pkg": "pkg --out-dir release --targets node10-macos-x64,node10-alpine-x64,node10-linux-x64,node10-win https-reverse-proxy.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coeps-github/https-reverse-proxy.git"
   },
-  "author": "coeps",
+  "author": "coeps@coeps.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/coeps-github/https-reverse-proxy/issues"
