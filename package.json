@@ -1,5 +1,5 @@
 {
-  "name": "https-reverse-proxy",
+  "name": "@coeps/https-reverse-proxy",
   "version": "1.0.0",
   "description": "simple configurable https reverse proxy",
   "main": "https-reverse-proxy.js",
