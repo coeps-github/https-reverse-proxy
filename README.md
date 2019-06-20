@@ -30,7 +30,7 @@ https-reverse-proxy --config config.json
 }
 ```
 
-##Limitations
+## Limitations
 If removePathFromRequestUrl is true, the path is removed from the request.url and then handed over to the proxy.
 The path ending / or /* is removed and the resulting string is removed from the request.url.
 Therefore no complex paths (e.g. wildcards in between, regexp) are possible with this option enabled.
