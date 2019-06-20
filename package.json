@@ -2,13 +2,16 @@
   "name": "https-reverse-proxy",
   "version": "1.0.0",
   "description": "simple configurable https reverse proxy",
-  "main": "index.js",
+  "main": "https-reverse-proxy.js",
+  "bin": {
+    "https-reverse-proxy": "https-reverse-proxy.js"
+  },
   "scripts": {
-    "start": "node index.js --config config.json"
+    "start": "node https-reverse-proxy.js --config config.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://coeps-github:3f901ca3db5a1d5db0907bcd468e31d53682a27e@github.com/coeps-github/https-reverse-proxy.git"
+    "url": "git+https://github.com/coeps-github/https-reverse-proxy.git"
   },
   "author": "coeps",
   "license": "MIT",
@@ -21,5 +24,8 @@
     "express": "4.17.1",
     "http-proxy": "1.17.0",
     "rc": "1.2.8"
+  },
+  "devDependencies": {
+    "pkg": "4.4.0"
   }
 }
