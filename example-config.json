@@ -1,0 +1,35 @@
+{
+  "https": {
+    "key": "./certificates/private.key",
+    "cert": "./certificates/public-certificate.pem"
+  },
+  "servers": [
+    {
+      "port": 7443,
+      "rules": [
+        {
+          "path": "/*",
+          "target": "https://www.google.ch"
+        }
+      ]
+    },
+    {
+      "port": 8443,
+      "rules": [
+        {
+          "path": "/*",
+          "target": "https://www.blick.ch"
+        }
+      ]
+    },
+    {
+      "port": 9443,
+      "rules": [
+        {
+          "path": "/*",
+          "target": "https://www.20min.ch"
+        }
+      ]
+    }
+  ]
+}
