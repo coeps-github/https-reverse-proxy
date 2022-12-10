@@ -23,7 +23,7 @@
   "homepage": "https://github.com/coeps-github/https-reverse-proxy#readme",
   "dependencies": {
     "debug": "4.1.1",
-    "express": "4.17.1",
+    "express": "4.17.3",
     "http-proxy": "1.17.0",
     "rc": "1.2.8"
   },
